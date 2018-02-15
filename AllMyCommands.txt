@@ -1,0 +1,201 @@
+$ history
+    1  git clone https://github.com/IngyAhmad/AnoujaRep.git
+    2  ls
+    3  cd AnoujaRep
+    4  clear
+    5  cd AnoujaRep
+    6  ls
+    7  git status
+    8  git int
+    9  git init
+   10  git add 1.1 Getting Started - About Version Control
+   11  add GettingStarted
+   12  git add GettingStarted
+   13  git add .
+   14  git status
+   15  git add GettingStarted
+   16  git commit
+   17  git commit -m "First commit"
+   18  git commit GettingStarted
+   19  git add GettingStarted
+   20  git add .
+   21  git commit
+   22  git add GettingStarted
+   23  git add GettingStarted
+   24  git add GettingStarted
+   25  git add GettingStarted
+   26  git push u-(GettingStarted)
+   27  git push u- (GettingStarted)
+   28  git push -u GettingStarted
+   29  git init
+   30  git push -u GettingStarted
+   31  git push -uGettingStarted
+   32  git fetch origin master
+   33  git merge origin master
+   34  touch GettingStarted
+   35  git add GettingStarted.txt
+   36  touch 3.1 Git Branching - Branches in a Nutshell
+   37  git update
+   38  git update-git-for-windows
+   39  ls
+   40  touch 3.1
+   41  git add 3.1.txt
+   42  git add 3.1.txt
+   43  ls
+   44  touch 3.1
+   45  git add 3.1.txt
+   46  git pull upstream master
+   47  cd AnoujaRep
+   48  ls
+   49  touch 3.1 Git Branching - Branches in a Nutshell
+   50  ls
+   51  git status
+   52  ls
+   53  touch 3.1 Git Branching - Branches in a Nutshell
+   54  git pull
+   55  git pull https://github.com/IngyAhmad/AnoujaRep.git
+   56  git pull <https://github.com/IngyAhmad/AnoujaRep.git>
+   57  git init
+   58  git init
+   59  git pull
+   60  git pull https://github.com/IngyAhmad/AnoujaRep.git
+   61  git show-branch
+   62  touch GitBranching
+   63  git add GitBranching.txt
+   64  git push https://github.com/IngyAhmad/AnoujaRep.git
+   65  touch GitBranching
+   66  git add GitBranching.txt
+   67  git add .
+   68  git status
+   69  git add .
+   70  git commit -m "I added the three files in requirement 4)b - GettingStarted, GitBranching and DistributedGit"
+   71   git config --global user.email "ingy.ahmad@hotmail.com"
+   72   git config --global user.name "IngyAhmad"
+   73  git commit -m "I added the three files in requirement 4)b - GettingStarted, GitBranching and DistributedGit"
+   74  git push
+   75  git pull
+   76  git pull
+   77  git commit -m "I added the three files in requirement 4)b - GettingStarted, GitBranching and DistributedGit"
+   78  git pull
+   79  git status
+   80  git push
+   81  history
+   82  history -less
+   83  history --less
+   84  history
+   85  ls
+   86  git rm -- cached GitBranching.txt
+   87  git init Ingyy
+   88  cd Ingyy
+   89  git status
+   90  git add .
+   91  git status
+   92  git commit -m "File 1, File 2, File 3 have been added to the staging area"
+   93  git rm -- cached FileTwo.txt
+   94  git rm --cached FileTwo.txt
+   95  git status
+   96  $ git commit -m "Something terribly misguided"              (1)
+   97  $ git reset HEAD~                                           (2)
+   98  << edit files as necessary >>                               (3)
+   99  $ git add ...                                               (4)
+  100  $ git commit -c ORIG_HEAD
+  101  git status
+  102  git revert FileTwo.txt
+  103  git status
+  104  git commit -m "I have deleted FileTwo"
+  105  $ git commit -c ORIG_HEAD
+  106  git add .
+  107  git init Ingy
+  108  cd Ingy
+  109  git status
+  110  git add .
+  111  git commit -m "File 1, File 2 and File 3 have been added to the staging area"
+  112  git rm --cached FileTwo.txt
+  113  git status
+  114  git checkout HEAD^ FileTwo.txt
+  115  git commit -m "FileTwo has been deleted"
+  116  git checkout HEAD^ FileTwo.txt
+  117  git status
+  118  git commit -m "FileTwo has been reverted"
+  119  git remote add origin https://github.com/IngyAhmad/AnoujaRep.git
+  120  git remote -v
+  121  git push origin master
+  122  git remote add origin https://github.com/IngyAhmad/AnoujaRep.git
+  123  git remote -v
+  124  git push origin master
+  125  git push origin master --force
+  126  touch README.md
+  127  git status
+  128  git commit -m "ReadMe.md file has been added"
+  129  git add README.md.txt
+  130  git add README.md
+  131  git commit -m "README.md has been added"
+  132  git status
+  133  git checkout -b ReadMe
+  134  git checkout ReadMe
+  135  git push origin ReadMe
+  136  git add README.md
+  137  git commit -m "file README.md has been added to the new branch ReadMe"
+  138  git branch ReadMe
+  139  git add *
+  140  git commit -m "Merging the ReadMe branch with the master"
+  141  git push -u origin ReadMe
+  142  git checkout master
+  143  git merge ReadMe
+  144  git push -u origin master
+  145  git status
+  146  git add AllMyCommands.txt
+  147  touch AllMyCommands.txt
+  148  git add AllMyCommands.txt
+  149  git commit -m "file AllMyCommands.txt has been added"
+  150  git status
+  151  git push origin master
+  152  git add .
+  153  git status
+  154  git add AllMyCommands.txt
+  155  git commit -m "file AllMyCommands has been added"
+  156  git add .
+  157  git status
+  158  git push origin master
+  159  git add AllMyCommand.txt
+  160  git commit -m "AllMyCommand file has been added"
+  161  git status
+  162  git checkout HEAD^ AllMyCommands.txt
+  163  git status
+  164  git push
+  165  git status
+  166  git push origin master
+  167  ls
+  168  git rm-- cached AllMyCommands.txt
+  169  git rm --cached AllMyCommands.txt
+  170  git rm --cached AllMyCommand.txt
+  171  ls
+  172  git status
+  173  git rm AllMyCommands.txt
+  174  ls
+  175  git status
+  176  ls
+  177  git checkout master
+  178  ls
+  179  git rm --cached AllMyCommand.txt
+  180  git status
+  181  ls
+  182  ls
+  183  ls
+  184  git clone https://github.com/IngyAhmad/AnoujaRep.git
+  185  ls
+  186  cd AnoujaRep/
+  187  ls
+  188  git rm --cached AllMyCommand.txt
+  189  ls
+  190  rm AllMyCommand
+  191  rm AllMyCommand.txt
+  192  git status
+  193  git commit -m "Deleted AllMyCommand file"
+  194  git push
+  195  clone https://github.com/IngyAhmad/TeamRep.git
+  196  git clone https://github.com/IngyAhmad/TeamRep.git
+  197  cd TeamRep
+  198  git init
+  199  history
+  200  history
